@@ -40,7 +40,7 @@
               <ListboxOption
                 v-slot="{ active, selected }"
                 v-for="person in people"
-                :key="person"
+                :key="person.name"
                 :value="person"
                 as="template"
               >
